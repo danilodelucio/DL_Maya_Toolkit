@@ -21,17 +21,9 @@ class DLMT():
         self.TOOL_VERSION = "v1.0"
 
     def dialog_message(self, msg:str) -> None:
-        """
-        Display a dialog message to the user.
-        """
-
         cmds.confirmDialog(title=self.TOOL_NAME, message=msg, icon="information", button="OK")
 
     def selected_objects(self) -> list:
-        """
-        Check and store the selected objects.
-        """
-
         obj_list = [obj for obj in cmds.ls(selection=True)]
        
         if len(obj_list) == 0:
@@ -41,10 +33,6 @@ class DLMT():
             return obj_list
 
     def selected_faces(self) -> list:
-        """
-        Check and store the selected faces.
-        """
-
         if self.selected_objects():
             faces_list = [face for face in cmds.ls(selection=True, flatten=True)]
 
@@ -58,9 +46,8 @@ class DLMT():
         cmds.delete(constructionHistory=True)
 
     def group_name(self) -> str:
-        """
-        Check if the selected object belongs to a group and returns the group name.
-        """
+        # Check if the selected object belongs to a group and returns the group name.
+        
 
         selected_objs = cmds.ls(selection=True, type='transform', long=True)
 
