@@ -9,7 +9,6 @@
 import os
 import sys
 import webbrowser
-
 from Qt import QtWidgets, QtGui, QtCore, QtCompat
 
 
@@ -34,8 +33,6 @@ class SimpleUI():
 
         # SHOW the UI
         self.wgUtil.show()
-
-
 
     #************************************************************
     # PRESS

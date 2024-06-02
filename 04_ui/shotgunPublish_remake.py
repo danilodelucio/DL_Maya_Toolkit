@@ -12,11 +12,13 @@ import webbrowser
 from Qt import QtWidgets, QtGui, QtCore, QtCompat
 from PyQt5.QtGui import QIcon, QPixmap
 
+
 #*******************************************************************
 # VARIABLE
 TITLE = os.path.splitext(os.path.basename(__file__))[0]
 CURRENT_PATH = os.path.dirname(__file__)
 IMG_PATH = CURRENT_PATH + "/imgs/{}.png"
+
 
 #*******************************************************************
 # CLASS
