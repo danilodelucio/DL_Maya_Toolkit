@@ -4,7 +4,7 @@
 
 ___
 
-This is a development project for the Python Advanced course taught by Alexander Richter. It was created for two main reasons:
+This is a development project for the **Python Advanced** course taught by **Alexander Richter**. It was created for two main reasons:
 - To become familiar with Maya's API;
 - To develop simple automated tasks based on suggestions from Maya users;
 
@@ -46,3 +46,26 @@ It will highlight all the Ngons if they were found.
 
 <img width="700" alt="image" src="https://github.com/danilodelucio/DL_Maya_Toolkit/assets/47226196/12e4b002-82eb-4e04-864b-090b6dbeda74">
 
+___
+# 🛠️ Troubleshooting
+
+If you have feedback, suggestions, or feature requests, please visit the [Discussions](https://github.com/danilodelucio/DL_Maya_Toolkit/discussions) page and create a **New Discussion**.
+
+For bugs, please go to the [Issues](https://github.com/danilodelucio/DL_Maya_Toolkit/issues) page and create a **New Issue**.
+
+___
+# 🥺 Support me
+![image](https://github.com/danilodelucio/DL_Maya_Toolkit/assets/47226196/a7f890f4-05e6-4f28-ab11-2ce42651075e)
+
+This project required significant time and extra hours of hard work to make it available to everyone.
+
+If you find this tool useful, please consider supporting me on [Buy Me A Coffee](https://buymeacoffee.com/danilodelucio). ☕
+
+You can also share this tool or send me a positive message, it would help me in the same way.
+
+___
+Special thanks to **Luis Regalado**, **Vitor Borsato**, **Marco Antonio** and **Leticia Matsuoka** for providing suggestions for this tool.
+
+Also, thanks to **Andrea Casati** for helping me with UI issues, and **Juliana Chen** for her support and encouragement.
+
+# Cheers! 🥂
