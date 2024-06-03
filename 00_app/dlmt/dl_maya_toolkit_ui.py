@@ -41,7 +41,7 @@ class DlMayaToolkit(QtWidgets.QDialog):
         super(DlMayaToolkit, self).__init__(parent)
 
         # Load UI file
-        path_ui = SCRIPT_PATH + "/" + TITLE + ".ui"
+        path_ui = SCRIPT_PATH + f"/{TITLE}.ui"
         self.dlmt_ui = QtCompat.loadUi(path_ui)
 
         self.setWindowTitle(TOOL_NAME)
@@ -166,6 +166,7 @@ class DlMayaToolkit(QtWidgets.QDialog):
                 cmds.select(obj_name)
                 cmds.ungroup()
                 cmds.CenterPivot()
+                cmds.viewFit()
 
     def Extract_Faces(self):
         # The extracted faces will be in the same group
@@ -181,9 +182,10 @@ class DlMayaToolkit(QtWidgets.QDialog):
                 self.rename_objects(obj_name)
                 cmds.CenterPivot()
 
-                group_name = group_name()
+                group_name = self.group_name()
                 cmds.select(group_name)
                 cmds.ungroup()
+                cmds.viewFit()
 
     def Combine_Objects(self):
         try:
@@ -196,6 +198,7 @@ class DlMayaToolkit(QtWidgets.QDialog):
 
                     cmds.CombinePolygons()
                     self.clear_history()
+                    cmds.viewFit()
 
                     if groupName:
                         # If the Group exists, move the Combined object back to it
@@ -224,10 +227,11 @@ class DlMayaToolkit(QtWidgets.QDialog):
 
                 self.rename_objects(obj_name)
 
-                # Select the Group (will be the same name as the selected object), and Ungroup it
+                # Select the Group (it will be the same name as the selected object), and Ungroup it
                 cmds.select(obj_name)
                 cmds.ungroup()
                 cmds.CenterPivot()
+                cmds.viewFit()
             except:
                 self.dialog_message("Please select a combined object to Separate!")
 
@@ -278,12 +282,13 @@ class DlMayaToolkit(QtWidgets.QDialog):
                     cmds.viewFit()
                     self.dialog_message(f"{len(ngon_list)} Ngons have been found!")
 
+
 class OutlinerRenamer(QtWidgets.QDialog):
     def __init__(self, parent=None):
         super(OutlinerRenamer, self).__init__(parent)
 
         # Load UI file
-        path_ui = SCRIPT_PATH + "/" + "dlmt_outliner_renamer_ui.ui"
+        path_ui = SCRIPT_PATH + "/dlmt_outliner_renamer_ui.ui"
         self.outliner_ui = QtCompat.loadUi(path_ui, self)
 
         self.setWindowTitle(TOOL_NAME + " - Outliner Renamer")
@@ -295,9 +300,8 @@ class OutlinerRenamer(QtWidgets.QDialog):
     
     def press_Rename(self):
         print(self.button_pressed.format("RENAME"))
+
         rename_str = str(self.outliner_ui.lineEdit_newName.text())
-
-
         hashtag = None
 
         outliner_layers = cmds.ls(selection=True)
