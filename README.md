@@ -4,7 +4,9 @@
 
 ___
 
-This is a development project for the **Python Advanced** course taught by **Alexander Richter**. It was created for two main reasons:
+This is a development project for the **Python Advanced** course taught by **Alexander Richter**.
+
+I decided to create it for two main reasons:
 - To become familiar with Maya's API;
 - To develop simple automated tasks based on suggestions from Maya users;
 
@@ -40,7 +42,7 @@ ___
 # :white_check_mark: Check Ngons
 It will highlight all the Ngons if they were found.
 > [!IMPORTANT]
-> For now, this feature does not have a progress bar, so keep in mind that depending on the selected 3D model (like a dense mesh), this can take some time.
+> For now, this feature does not have a progress bar, so keep in mind that this process can take some time depending on the selected 3D model, such as a dense mesh.
 
 <img width="400" alt="image" src="https://github.com/danilodelucio/DL_Maya_Toolkit/assets/47226196/cbe9ae38-b79d-4bb7-99a0-d62c3ea6a797">
 
