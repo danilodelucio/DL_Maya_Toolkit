@@ -50,6 +50,7 @@ It will highlight all the Ngons if they were found.
 
 ___
 # 🛠️ Troubleshooting
+![image](https://github.com/danilodelucio/DL_Maya_Toolkit/assets/47226196/3551551b-587b-454e-b0cb-8b0d57df9ae1)
 
 If you have feedback, suggestions, or feature requests, please visit the [Discussions](https://github.com/danilodelucio/DL_Maya_Toolkit/discussions) page and create a **New Discussion**.
 
