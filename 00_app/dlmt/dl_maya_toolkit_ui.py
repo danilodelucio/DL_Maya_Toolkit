@@ -242,7 +242,7 @@ class DlMayaToolkit(QtWidgets.QDialog):
             ui = OutlinerRenamer()
             ui.exec_()
         else:
-            self.dialog_message("Please select one or more layers in the Outliner panel!")
+            self.dialog_message("Please select one or more items in the Outliner panel!")
 
     def Check_Ngons(self):
         selected_objs = self.selected_objects()
