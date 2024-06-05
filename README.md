@@ -76,30 +76,26 @@ Save it anywhere on your computer, then extract its content. For better convenie
 <details>
   <summary>2. Maya Setup</summary>
   <br>
+
+  Copy the `userSetup.py` file and paste it into the Maya's Scripts directory (usually at `C:\Users\<username>\Documents\maya\<version>\scripts`).
+  > _In case the file already exists, you can copy the entire content from one file and paste it at the end of another._
+
+  <img width="400" alt="image" src="https://github.com/danilodelucio/DL_Maya_Toolkit/assets/47226196/9647985f-bd61-42e4-bb3b-0bf33e27f224">
+<br>
+<br>
+
+  Open it with a text editor and replace the **DLMT_TOOL** path with where is located **DL_Maya_Toolkit** folder on your computer.
+
+  > _Using a single backslash `\` can cause issues for the file path. Please use either a forward slash `/` or double backslash `\\`._
   
-  From the image below, follow the following steps (you will only need to do this process once):
+  <img width="659" alt="image" src="https://github.com/danilodelucio/DL_Maya_Toolkit/assets/47226196/d2ff7d3b-2261-4126-a33f-254840661aeb">
+  <br>
+  <br>
+  
+  Open Maya and you should see the **DL_Maya_Toolkit** shelf appear.
+  
+  <img width="757" alt="image" src="https://github.com/danilodelucio/DL_Maya_Toolkit/assets/47226196/1c77acb4-9e6e-4092-bc96-09050142ec8b">
 
-  1. Open the Script Editor;
-  2. Open a Python tab;
-  3. Copy/Paste the code below and replace the file path with where is located **DL_Maya_Toolkit** folder on your computer;
-  4. Save it to your Shelf;
-
-<img width="882" alt="dlmt-shelf-maya" src="https://github.com/danilodelucio/DL_Maya_Toolkit/assets/47226196/3c3b8cbb-e6d2-436e-869a-552acda24c28">
-
-```python
-import sys
-import importlib
-
-app_module_path = 'D:\\your\\path\\here\\DL_Maya_Toolkit'
-if app_module_path not in sys.path:
-    sys.path.append(app_module_path)
-
-from dlmt import dl_maya_toolkit_ui
-importlib.reload(dl_maya_toolkit_ui)
-ui = dl_maya_toolkit_ui.DlMayaToolkit()
-ui.show()
-```
-> Using a single backslash `\` can cause issues for the file path. Please use either a forward slash `/` or double backslash `\\`.
 
 </details>
 
