@@ -6,7 +6,7 @@ ___
 
 This is a development project for the **Python Advanced** course taught by **Alexander Richter**.
 
-I decided to create it for two main reasons:
+I decided to create this tool for two main reasons:
 - To become familiar with Maya's API;
 - To develop simple automated tasks based on suggestions from Maya users;
 
@@ -43,9 +43,10 @@ Optionally, you can add padding by using "#", which will be replaced by sequence
 <!-- ########################################################################## CHECK NGONS ########################################################################## -->
 ___
 # :white_check_mark: Check Ngons
-It will highlight all the Ngons if they were found.
+It will highlight all the faces with more than 4 vertex (which are considered as Ngons).
+
 > [!IMPORTANT]
-> For now, this feature does not have a progress bar, so keep in mind that this process can take some time depending on the selected 3D model, such as a dense mesh.
+> _For now, this feature does not have a progress bar, so keep in mind that this process can take some time depending on the selected 3D model, such as a dense mesh._
 
 <img width="400" alt="image" src="https://github.com/danilodelucio/DL_Maya_Toolkit/assets/47226196/cbe9ae38-b79d-4bb7-99a0-d62c3ea6a797">
 
