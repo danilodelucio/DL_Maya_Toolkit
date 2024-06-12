@@ -1,7 +1,7 @@
 
 ![DL_Maya_Toolkit_intro-gif_v003](https://github.com/danilodelucio/DL_Maya_Toolkit/assets/47226196/adbe574b-46ce-4617-98f3-3e3fdfdbbf09)
 
-**This tool is a collection of simple features to help Maya users speed up their workflows.**
+**This tool is a collection of simple features to help 3D modellers in Maya speed up their workflows.**
 
 ___
 
