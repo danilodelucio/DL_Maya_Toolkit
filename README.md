@@ -1,4 +1,5 @@
-![dl_maya_toolkit_cover01](https://github.com/danilodelucio/DL_Maya_Toolkit/assets/47226196/f2735ce1-4612-43d9-890f-d11d19297d84)
+
+![DL_Maya_Toolkit_intro-gif_v003](https://github.com/danilodelucio/DL_Maya_Toolkit/assets/47226196/adbe574b-46ce-4617-98f3-3e3fdfdbbf09)
 
 **This tool is a collection of simple features to help Maya users speed up their workflows.**
 
@@ -104,8 +105,6 @@ Save it anywhere on your computer, then extract its content. For better convenie
 <!-- ########################################################################## TROUBLESHOOTING ########################################################################## -->
 ___
 # 🛠️ Troubleshooting
-![I can fix it, if I dont know it is broken](https://github.com/danilodelucio/DL_Maya_Toolkit/assets/47226196/db7fdbbc-4327-4be7-9dae-124baf40f892)
-
 If you have feedback, suggestions, or feature requests, please visit the [Discussions](https://github.com/danilodelucio/DL_Maya_Toolkit/discussions) page and create a **New Discussion**.
 
 For bugs, please go to the [Issues](https://github.com/danilodelucio/DL_Maya_Toolkit/issues) page and create a **New Issue**.
