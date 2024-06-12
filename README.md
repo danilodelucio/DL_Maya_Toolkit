@@ -123,6 +123,6 @@ You can also share this tool or send me a positive message, it would help me in 
 ___
 Special thanks to **Luis Regalado**, **Vitor Borsato**, **Marco Antonio** and **Leticia Matsuoka** for providing suggestions for this tool.
 
-Also, thanks to **Andrea Casati** for helping me with UI issues, and **Juliana Chen** for her support and encouragement.
+Also, thanks to **Andrea Casati** for helping me with UI issues, **Juliana Chen** for her support and encouragement, and **Alexander Ritcher** for mentoring this awesome masterclass.
 
 # Cheers! 🥂
