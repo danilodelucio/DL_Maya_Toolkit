@@ -1,6 +1,0 @@
-<RCC>
-  <qresource prefix="imgs">
-    <file>img/dlmt_logo.png</file>
-    <file>img/dlmt_icon.png</file>
-  </qresource>
-</RCC>
