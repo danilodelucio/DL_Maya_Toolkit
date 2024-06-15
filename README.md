@@ -76,7 +76,7 @@ Save it anywhere on your computer, then extract its content. For better convenie
 </details>
 
 <details>
-  <summary>2. Maya Setup</summary>
+  <summary>2. Maya Setup [Option 1 - userSetup.py]</summary>
   <br>
 
   Copy the `userSetup.py` file and paste it into the Maya's Scripts directory (usually at `C:\Users\<username>\Documents\maya\<version>\scripts`).
@@ -101,6 +101,40 @@ Save it anywhere on your computer, then extract its content. For better convenie
 
 </details>
 
+<details>
+  <summary>2. Maya Setup [Option 2 - Script Editor]</summary>
+  <br>
+
+  If you open Maya and the tool does not appear on the shelf after following the option 1 steps, it is possible that the `userSetup.py` file is being ignored by Maya.
+
+  Copy the following code, paste it into the Script Editor and update the file path with where is located the tool.
+  
+  > _Using a single backslash `\` can cause issues for the file path. Please use either a forward slash `/` or double backslash `\\`._
+
+  ```python
+import sys
+import importlib
+
+app_module_path = 'put\\your\\file\\path\\here\\DL_Maya_Toolkit'
+if app_module_path not in sys.path:
+    sys.path.append(app_module_path)
+
+from dlmt import dl_maya_toolkit_ui
+importlib.reload(dl_maya_toolkit_ui)
+ui = dl_maya_toolkit_ui.DlMayaToolkit()
+ui.show()
+```
+
+<img width="800" alt="image" src="https://github.com/danilodelucio/DL_Maya_Toolkit/assets/47226196/e867425c-e9a5-4cd1-b228-307599c3737a">
+
+<img width="350" alt="image" src="https://github.com/danilodelucio/DL_Maya_Toolkit/assets/47226196/7a1a29cb-ad12-46dd-be25-b132a027b854">
+
+Now you should see a custom icon on your shelf and you can use it to open **DL_Maya_Toolkit**.
+
+<img width="300" alt="image" src="https://github.com/danilodelucio/DL_Maya_Toolkit/assets/47226196/1df5a836-99da-4b6d-a405-7703ce0cbcd2">
+
+
+</details>
 
 <!-- ########################################################################## TROUBLESHOOTING ########################################################################## -->
 ___
