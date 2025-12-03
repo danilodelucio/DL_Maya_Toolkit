@@ -146,22 +146,16 @@ For bugs, please go to the [Issues](https://github.com/danilodelucio/DL_Maya_Too
 <!-- ########################################################################## SUPPORTERS ########################################################################## -->
 ___
 
-# Supporters 💪
+# Support me! ☕
 
--
+![Supporters Page](https://danilodelucio.com/wp-content/uploads/2025/12/supporter-badges.jpg)
 
-<!-- ########################################################################## SUPPORT ME ########################################################################## -->
-___
-# 🥺 Support me
-![image](https://github.com/danilodelucio/DL_Maya_Toolkit/assets/47226196/a7f890f4-05e6-4f28-ab11-2ce42651075e)
+## Enjoying this tool?
+Support me with a coffee on my [Supporters](https://www.danilodelucio.com/supporters) page — get a badge and join the wall of supporters! 😎
 
-This project required significant time and extra hours of hard work to make it available to everyone.
+You can also ⭐ _star this repository_ ⭐ — it helps a lot with visibility and motivates me to keep developing tools for VFX.
 
-If you find this tool useful, please consider supporting me on [Buy Me A Coffee](https://buymeacoffee.com/danilodelucio). ☕
-
-> _If you donate any amount, please mention this tool (also your preference name if you want to), so your name will appear in the Supporters list above._
-
-You can also share this tool or send me a positive message, it would help me in the same way.
+Sharing this project or sending me a positive message would help me in the same way.
 
 ___
 Special thanks to **Luis Regalado**, **Vitor Borsato**, **Marco Antonio** and **Leticia Matsuoka** for providing suggestions for this tool.
@@ -169,3 +163,4 @@ Special thanks to **Luis Regalado**, **Vitor Borsato**, **Marco Antonio** and **
 Also, thanks to **Andrea Casati** for helping me with UI issues, **Juliana Chen** for her support and encouragement, and **Alexander Ritcher** for mentoring this awesome masterclass.
 
 # Cheers! 🥂
+
